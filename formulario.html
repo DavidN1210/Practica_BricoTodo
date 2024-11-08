@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estiloformulario.css">
+</head>
+<body>
+
+    <h1>Formulario de Información</h1>
+
+    <form action="formulario.php" method="post">
+        <fieldset>
+            <legend>Sus Datos</legend>
+            <p>
+            <label for="nom">Nombre y apellidos:</label>
+            <input type="text" name="nom" id="nom" maxlength="50">
+            </p>
+
+            <p>
+            <label for="con">Contraseña:</label>
+            <input type="text" name="con" id="con" maxlength="8">
+            </p>
+
+            <p>
+            <label for="usu">Usuario:</label>
+            <input type="text" name="usu" id="usu" value="anónimo" disabled>
+            </p>
+
+                Nivel:
+                <p>
+                     
+                    
+                    <input type="radio" name="niv" id="niv">
+                    <label for="niv">Profesional</label>
+                    
+          
+                </p>
+
+                <p>
+                    
+
+                    <input type="radio" name="niv" id="niv" checked>
+                    <label for="niv">Avanzado</label>
+                    
+                    
+                </p>
+
+                <p>
+                    
+                    <input type="radio" name="niv" id="niv">
+                    <label for="niv">Principiante</label>
+                    
+              
+                </p>
+
+        </fieldset>
+    </form>
+
+    <p>
+
+        <label for="nac">Nacionalidad:</label>
+        <select name="nac" id="nac">
+            <option value="esp" selected>España</option>
+            <option value="otr">Otra</option>
+        </select>
+
+    </p>
+
+    <p>
+
+
+        <label for="des">Descripción:</label>
+        <textarea name="des" id="des" cols="30" rows="4"></textarea>
+
+
+    </p>
+
+    <p>
+        
+
+        <input type="radio" name="op" id="op" checked>
+        <label for="op">Deseo reibir información sobre novedades y ofertas</label>
+        
+
+    </p>
+
+    <p>
+
+        <input type="checkbox" name="op1" id="op1">
+        <label for="op1">Declaro haber leído y aceptar las condiciones generales del programa
+            y la normativa sobre protección de datos
+        </label>
+        
+    </p>
+
+    <p>
+
+        <label for="fot">Adjuntar foto:</label>
+        <input type="file" name="fot" id="fot"> 
+
+    
+    </p>
+
+    <input type="submit">
+    <input type="reset" value="Borrar datos">
+    
+</body>
+</html>

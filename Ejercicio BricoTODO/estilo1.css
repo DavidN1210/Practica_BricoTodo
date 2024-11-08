@@ -1,0 +1,17 @@
+h1{color: #d2691e; text-align: center; font-family: "Pacifico", serif;}
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Caveat:wght@400..700&family=Chango&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&display=swap');
+h2{font-family:"Caveat", cursive;}
+h3{font-family: Arial, Helvetica, sans-serif; font-size: 25px; color: #008b8b;}
+p{font-family: Arial, Helvetica, sans-serif;}
+li{font-family: Arial, Helvetica, sans-serif;}
+a{text-decoration: none;}
+a:link{text-decoration: none;}
+a:visited{color: grey;}
+a:hover{font-weight: bold; color: red;}
+a:active{color: green;}
+table,th,td,tr{width: 33%; margin: auto;
+border: 3px solid brown ; background-color: antiquewhite;
+border-collapse: collapse;}
+body{background-image: url(descarga.jpeg); background-size: cover;}
+
+
